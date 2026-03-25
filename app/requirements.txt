@@ -1,0 +1,6 @@
+streamlit
+sentence-transformers
+pypdf
+endee
+python-dotenv
+numpy
