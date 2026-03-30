@@ -8,7 +8,7 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 def get_client():
     return Endee()
 
-
+#test
 def create_index_if_not_exists(client, index_name="resume_jd_index", dimension=384):
     try:
         client.create_index(

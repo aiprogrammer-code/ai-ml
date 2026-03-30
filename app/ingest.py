@@ -9,7 +9,7 @@ def extract_text_from_pdf(pdf_file):
         if page_text:
             text += page_text + "\n"
     return text
-#test
+
 
 def chunk_text(text, chunk_size=500, overlap=100):
     chunks = []
